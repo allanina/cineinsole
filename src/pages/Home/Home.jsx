@@ -8,7 +8,7 @@ const Home = () => {
   const [movie, setMovie] = useState([]);
   const [pages, setPages] = useState([1]);
 
-
+  //fetch das informações a partir da API
   const fetchMovies = async () => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/movie/now_playing?api_key=34b76e64f9db349fc75dc436aa43505a&language=pt-BR&page=${pages}`);
@@ -23,7 +23,7 @@ const Home = () => {
 
   return(
     <>
-
+      {/* card dos filmes é criado com o metodo array.map e repetido conforme limite da API (20 itens por página) */}
       <div className="movies-now__playing">
         {
           movie && movie.map((movieInfo)=>(

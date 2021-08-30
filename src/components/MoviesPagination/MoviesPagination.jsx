@@ -2,12 +2,14 @@ import { createTheme, ThemeProvider } from '@material-ui/core';
 import Pagination from '@material-ui/lab/Pagination';
 import "./style.css"
 
+//criação de tema personalizado de acordo com documentação do material ui
 const darkThemePagination=createTheme({
   palette:{
     type: "light",
   }
 })
 
+//paginação criada com material ui
 const MoviesPagination = ({setPages, numberOfPages = 10}) =>{
 
     const pageChange = (pages) =>{

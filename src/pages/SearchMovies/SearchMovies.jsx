@@ -13,7 +13,7 @@ const SearchMovies = () => {
   const [movie, setMovie] = useState([]);
   const [pages, setPages] = useState([1]);
 
-  //material ui Theme
+  //tema material ui
   const darkTheme = createTheme ({
     palette:{
       type: "light",

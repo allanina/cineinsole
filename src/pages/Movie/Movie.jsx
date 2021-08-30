@@ -8,7 +8,7 @@ const Movie = () => {
   const [id, setId] = useState([])
 
 
-
+  //foi utilizado o id para pegar as informações do site
   const fetchMovies = async () => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/movie/${id}?api_key=34b76e64f9db349fc75dc436aa43505a&language=pt-BR`);
