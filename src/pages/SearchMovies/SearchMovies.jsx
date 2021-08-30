@@ -24,7 +24,7 @@ const SearchMovies = () => {
   })
 
   const fetchSearch = async () => {
-    const {data} = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&language=pt-BR&query=${searchText}&page=${pages}`)
+    const {data} = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=34b76e64f9db349fc75dc436aa43505a&language=pt-BR&query=${searchText}&page=${pages}`)
 
     setMovie(data.results)
     setPages(data.total_pages)

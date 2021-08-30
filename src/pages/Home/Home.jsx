@@ -11,7 +11,7 @@ const Home = () => {
 
   const fetchMovies = async () => {
     const { data } = await axios.get(
-      `https://api.themoviedb.org/3/movie/now_playing?api_key=${process.env.REACT_APP_API_KEY}&language=pt-BR&page=${pages}`);
+      `https://api.themoviedb.org/3/movie/now_playing?api_key=34b76e64f9db349fc75dc436aa43505a&language=pt-BR&page=${pages}`);
 
       setMovie(data.results)
   };

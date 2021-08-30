@@ -40,7 +40,7 @@ export default function MovieModal({children, id}) {
 
   const fetchMovieInfos = async () => {
       const {data} = await axios.get(
-        `https://api.themoviedb.org/3/movie/${id}?api_key=${process.env.REACT_APP_API_KEY}&language=pt-BR`
+        `https://api.themoviedb.org/3/movie/${id}?api_key=34b76e64f9db349fc75dc436aa43505a&language=pt-BR`
         );
         console.log(data)
         setMovie(data);
