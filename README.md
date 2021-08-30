@@ -1,7 +1,9 @@
 # CineInsole 🎬
 
 Essa página foi desenvolvida para o desafio da Insole. Consiste em uma página que apresenta diversos filmes a partir da API  do TheMovie DB (https://www.themoviedb.org/documentation/api).
-
+<br>
+<br>
+Procurei utilizar variáveis e classes em inglês sempre que possível, como faço em meus projetos que utilizo React, pois torna o código mais acessível às pessoas dos mais diversos backgrounds. Porém, busquei deixar o mais descritivo possível e adicionei comentários em português para as pessoas que não possuem fluência no idioma também terem a possibilidade de entender o que está sendo feito.
 ## `Tecnologias utilizadas:`
 | Ferramenta | Descrição |
 | --- | --- |
