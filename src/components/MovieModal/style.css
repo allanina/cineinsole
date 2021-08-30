@@ -1,0 +1,28 @@
+.movie-modal__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.movie-modal__poster{
+  border-radius: 10px;
+}
+
+.movie-modal__about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  padding: 10%;
+}
+
+.movie-modal__title{
+  margin-bottom: 2rem;
+  color: #F15823;
+}
+
+.movie-modal__rating{
+  margin-top: 2rem;
+  color: #F15823;
+  font-weight: 600;
+}

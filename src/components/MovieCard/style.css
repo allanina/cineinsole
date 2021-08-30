@@ -1,0 +1,52 @@
+.container-card{
+  margin: 2rem 2rem 4rem 2rem;
+}
+
+.image-poster__container{
+  display: flex;
+  position: inherit;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 2px #5a3a7a;
+}
+
+.image-poster__container:hover{
+  box-shadow: 0 0 4px 4px #7852aa;
+  transition-delay: 20ms;
+}
+
+.image-poster__container img{
+  width: 100%;
+  border-radius: 10px;
+}
+.image-poster{
+  border-radius: 10px;
+  height: 30rem;
+  display: block;
+}
+
+.movie-title__container{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.movie-title{
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600; 
+}
+
+.movie-rating__container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.movie-rating{
+  color: #fff;
+  background-color: #4c2381;
+  padding: 2%;
+  font-size: 15px;
+  border-radius: 10px;
+}

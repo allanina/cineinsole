@@ -1,0 +1,7 @@
+.movies-now__playing{
+  background-color: #573fa7;
+  margin-top: 3%;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}

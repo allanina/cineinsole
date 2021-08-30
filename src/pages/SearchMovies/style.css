@@ -1,0 +1,15 @@
+.search-movie__container{
+  min-height: 100%;
+  position:relative;
+  width:800px;
+  margin-top: 30rem;
+}
+
+/* .search-container{
+
+} */
+
+.search-icon{
+  color: #F15823;
+  background-color: transparent;
+}
